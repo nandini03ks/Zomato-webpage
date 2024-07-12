@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/bg\ zomato.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2{
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    font-family: sans-serif;
+    font-size: 5em;
+}
+.head{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 60%;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+.h3{
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    color: crimson;
+    font-size: 2em;
+}
+nav{
+    border: solid 1px white;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+    background-color: white;
+    width: 650px;
+}
+section{
+    display: flex;
+    gap: 2%;
+    margin: 30px 40px 0px;
+}
+section>div{
+    height: 200px;
+    width: 80%;
+    border: solid 1px;
+    border-radius: 10px;
+}
+.shead{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+section>div>h3,p{
+    margin-left: 10px;
+}
+.s41{
+    height: 100px;
+    width: 100px;
+}
+.p21{
+    display: flex;
+    gap: 6px;
+    position: relative;
+}
+.p2i{
+    height: 250px;
+    width:100%;
+}
+.p2i img{
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+.sh{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+}
+.sh1{
+    position: absolute;
+    bottom: 1px;
+    color: white;
+}
+.section3{
+    margin: 10px 40px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 18px;
+}
+.p31{
+    border: solid 1px black;
+    border-radius: 10px;
+    /* background-color: antiquewhite; */
+    /* display: flex;
+    gap: 50px; */
+}
+.section4{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 50px;
+}
+.section4 img{
+    height: 300px;
+    width: 250px;
+    margin: 50px 150px;
+}
+.section4 button{
+    height: 50px;
+    width: 50%;
+    border-radius: 3%;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+}
+.section5 h3{
+    border: solid 1px;
+    border-radius: 10px;
+    height: auto;
+    padding: 15px;
+    margin: 10px 40px 0px;
+}
+select{
+    border: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 10%;
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+option{
+    text-overflow: clip;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+footer{
+    background-color: beige;
+    margin: 30px 0px 0px;
+}
+.f1{
+    display: flex;
+    gap: 600px;
+}
+.f1 img{
+    width: 150px;
+    height: auto;
+}
+.f2{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.fi{
+    height: 40px;
+    width: 100px;
+    margin: 20px 80px 0px;
+}
+.f21 img{
+    height: 40px;
+    width: 120px;
+    display: block;
+}
+.p{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
